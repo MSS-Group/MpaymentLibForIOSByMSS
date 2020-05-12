@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MSSlibIOS_Example' do
+  pod 'MSSlibIOS', :path => '../'
+
+  target 'MSSlibIOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

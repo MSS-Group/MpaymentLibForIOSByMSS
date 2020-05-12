@@ -1,0 +1,6 @@
+framework module Pods_MSSlibIOS_Tests {
+  umbrella header "Pods-MSSlibIOS_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
