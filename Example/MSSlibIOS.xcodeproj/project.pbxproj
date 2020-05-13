@@ -7,103 +7,99 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0447C180246AB8410001E9F5 /* resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0447C179246AB8400001E9F5 /* resources.bundle */; };
+		0447C181246AB8410001E9F5 /* libmyLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C17A246AB8410001E9F5 /* libmyLibrary.a */; };
+		0447C182246AB8410001E9F5 /* arm64-apple-ios.swiftdoc in Resources */ = {isa = PBXBuildFile; fileRef = 0447C17C246AB8410001E9F5 /* arm64-apple-ios.swiftdoc */; };
+		0447C183246AB8410001E9F5 /* arm64.swiftmodule in Resources */ = {isa = PBXBuildFile; fileRef = 0447C17D246AB8410001E9F5 /* arm64.swiftmodule */; };
+		0447C184246AB8410001E9F5 /* arm64-apple-ios.swiftmodule in Resources */ = {isa = PBXBuildFile; fileRef = 0447C17E246AB8410001E9F5 /* arm64-apple-ios.swiftmodule */; };
+		0447C185246AB8410001E9F5 /* arm64.swiftdoc in Resources */ = {isa = PBXBuildFile; fileRef = 0447C17F246AB8410001E9F5 /* arm64.swiftdoc */; };
+		0447C1DA246ABB790001E9F5 /* Assets.car in Resources */ = {isa = PBXBuildFile; fileRef = 0447C188246ABB740001E9F5 /* Assets.car */; };
+		0447C1DC246ABB790001E9F5 /* PhoneNumberKit.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 0447C18B246ABB740001E9F5 /* PhoneNumberKit.framework.dSYM */; };
+		0447C1DE246ABB790001E9F5 /* Alamofire.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 0447C18E246ABB740001E9F5 /* Alamofire.framework.dSYM */; };
+		0447C1E4246ABB7A0001E9F5 /* nanopb.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 0447C199246ABB750001E9F5 /* nanopb.framework.dSYM */; };
+		0447C1E6246ABB7A0001E9F5 /* ObjectMapper.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 0447C19C246ABB750001E9F5 /* ObjectMapper.framework.dSYM */; };
+		0447C1E8246ABB7A0001E9F5 /* ImageSlideshow.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 0447C19F246ABB750001E9F5 /* ImageSlideshow.framework.dSYM */; };
+		0447C1EA246ABB7A0001E9F5 /* protobuf.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 0447C1A2246ABB750001E9F5 /* protobuf.framework.dSYM */; };
+		0447C1EC246ABB7A0001E9F5 /* iOSDropDown.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 0447C1A6246ABB750001E9F5 /* iOSDropDown.framework.dSYM */; };
+		0447C1EE246ABB7A0001E9F5 /* IQKeyboardManagerSwift.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 0447C1A9246ABB750001E9F5 /* IQKeyboardManagerSwift.framework.dSYM */; };
+		0447C1F0246ABB7A0001E9F5 /* IVMaskField.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 0447C1AC246ABB760001E9F5 /* IVMaskField.framework.dSYM */; };
+		0447C1F1246ABB7A0001E9F5 /* SQLite.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 0447C1AE246ABB760001E9F5 /* SQLite.framework.dSYM */; };
+		0447C1F4246ABB7A0001E9F5 /* InputMask.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 0447C1B2246ABB760001E9F5 /* InputMask.framework.dSYM */; };
+		0447C1F6246ABB7B0001E9F5 /* JMMaskTextField_Swift.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 0447C1B5246ABB760001E9F5 /* JMMaskTextField_Swift.framework.dSYM */; };
+		0447C1F8246ABB7B0001E9F5 /* SVPinView.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 0447C1B8246ABB760001E9F5 /* SVPinView.framework.dSYM */; };
+		0447C1F9246ABB7B0001E9F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0447C1B9246ABB760001E9F5 /* Assets.xcassets */; };
+		0447C1FA246ABB7B0001E9F5 /* AlamofireObjectMapper.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 0447C1BB246ABB760001E9F5 /* AlamofireObjectMapper.framework.dSYM */; };
+		0447C1FE246ABB7B0001E9F5 /* GoogleUtilities.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 0447C1C0246ABB770001E9F5 /* GoogleUtilities.framework.dSYM */; };
+		0447C201246ABB7B0001E9F5 /* OHHTTPStubs.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 0447C1C5246ABB780001E9F5 /* OHHTTPStubs.framework.dSYM */; };
+		0447C204246ABB7C0001E9F5 /* AKMaskField.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 0447C1CA246ABB780001E9F5 /* AKMaskField.framework.dSYM */; };
+		0447C205246ABB7C0001E9F5 /* Toast_Swift.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 0447C1CC246ABB790001E9F5 /* Toast_Swift.framework.dSYM */; };
+		0447C208246ABB7C0001E9F5 /* XLPagerTabStrip.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0447C1D0246ABB790001E9F5 /* XLPagerTabStrip.bundle */; };
+		0447C20A246ABB7C0001E9F5 /* XLPagerTabStrip.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 0447C1D2246ABB790001E9F5 /* XLPagerTabStrip.framework.dSYM */; };
+		0447C20C246ABB7C0001E9F5 /* ATAppUpdater.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 0447C1D5246ABB790001E9F5 /* ATAppUpdater.framework.dSYM */; };
+		0447C20E246ABB7D0001E9F5 /* FBLPromises.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 0447C1D8246ABB790001E9F5 /* FBLPromises.framework.dSYM */; };
+		0447C20F246ABB8A0001E9F5 /* AKMaskField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1C9246ABB780001E9F5 /* AKMaskField.framework */; };
+		0447C210246ABB8A0001E9F5 /* AKMaskField.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1C9246ABB780001E9F5 /* AKMaskField.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0447C211246ABB8C0001E9F5 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C18D246ABB740001E9F5 /* Alamofire.framework */; };
+		0447C212246ABB8C0001E9F5 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C18D246ABB740001E9F5 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0447C213246ABB8E0001E9F5 /* AlamofireObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1BC246ABB760001E9F5 /* AlamofireObjectMapper.framework */; };
+		0447C214246ABB8E0001E9F5 /* AlamofireObjectMapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1BC246ABB760001E9F5 /* AlamofireObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0447C215246ABB900001E9F5 /* ATAppUpdater.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1D4246ABB790001E9F5 /* ATAppUpdater.framework */; };
+		0447C216246ABB900001E9F5 /* ATAppUpdater.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1D4246ABB790001E9F5 /* ATAppUpdater.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0447C217246ABB920001E9F5 /* FBLPromises.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1D7246ABB790001E9F5 /* FBLPromises.framework */; };
+		0447C218246ABB920001E9F5 /* FBLPromises.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1D7246ABB790001E9F5 /* FBLPromises.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0447C219246ABB930001E9F5 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C194246ABB750001E9F5 /* FirebaseCore.framework */; };
+		0447C21A246ABB930001E9F5 /* FirebaseCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C194246ABB750001E9F5 /* FirebaseCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0447C21B246ABB950001E9F5 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C192246ABB740001E9F5 /* FirebaseCoreDiagnostics.framework */; };
+		0447C21C246ABB950001E9F5 /* FirebaseCoreDiagnostics.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C192246ABB740001E9F5 /* FirebaseCoreDiagnostics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0447C21D246ABB970001E9F5 /* FirebaseInstallations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1C7246ABB780001E9F5 /* FirebaseInstallations.framework */; };
+		0447C21E246ABB970001E9F5 /* FirebaseInstallations.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1C7246ABB780001E9F5 /* FirebaseInstallations.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0447C21F246ABB990001E9F5 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C187246ABB740001E9F5 /* FirebaseInstanceID.framework */; };
+		0447C220246ABB9A0001E9F5 /* FirebaseInstanceID.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C187246ABB740001E9F5 /* FirebaseInstanceID.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0447C221246ABBA30001E9F5 /* FirebaseMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1C2246ABB780001E9F5 /* FirebaseMessaging.framework */; };
+		0447C222246ABBA30001E9F5 /* FirebaseMessaging.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1C2246ABB780001E9F5 /* FirebaseMessaging.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0447C223246ABBAA0001E9F5 /* GoogleDataTransport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C196246ABB750001E9F5 /* GoogleDataTransport.framework */; };
+		0447C224246ABBAA0001E9F5 /* GoogleDataTransport.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C196246ABB750001E9F5 /* GoogleDataTransport.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0447C225246ABBB10001E9F5 /* GoogleDataTransportCCTSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C190246ABB740001E9F5 /* GoogleDataTransportCCTSupport.framework */; };
+		0447C226246ABBB10001E9F5 /* GoogleDataTransportCCTSupport.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C190246ABB740001E9F5 /* GoogleDataTransportCCTSupport.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0447C227246ABBB40001E9F5 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1BF246ABB770001E9F5 /* GoogleUtilities.framework */; };
+		0447C228246ABBB40001E9F5 /* GoogleUtilities.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1BF246ABB770001E9F5 /* GoogleUtilities.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0447C229246ABBB70001E9F5 /* ImageSlideshow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C19E246ABB750001E9F5 /* ImageSlideshow.framework */; };
+		0447C22A246ABBB70001E9F5 /* ImageSlideshow.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C19E246ABB750001E9F5 /* ImageSlideshow.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0447C22B246ABBBA0001E9F5 /* InputMask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1B1246ABB760001E9F5 /* InputMask.framework */; };
+		0447C22C246ABBBA0001E9F5 /* InputMask.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1B1246ABB760001E9F5 /* InputMask.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0447C22D246ABBE20001E9F5 /* iOSDropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1A5246ABB750001E9F5 /* iOSDropDown.framework */; };
+		0447C22E246ABBE20001E9F5 /* iOSDropDown.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1A5246ABB750001E9F5 /* iOSDropDown.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0447C22F246ABBF70001E9F5 /* IQKeyboardManagerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1A8246ABB750001E9F5 /* IQKeyboardManagerSwift.framework */; };
+		0447C230246ABBF70001E9F5 /* IQKeyboardManagerSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1A8246ABB750001E9F5 /* IQKeyboardManagerSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0447C231246ABC000001E9F5 /* IVMaskField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1AB246ABB760001E9F5 /* IVMaskField.framework */; };
+		0447C232246ABC000001E9F5 /* IVMaskField.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1AB246ABB760001E9F5 /* IVMaskField.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0447C233246ABC020001E9F5 /* JMMaskTextField_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1B4246ABB760001E9F5 /* JMMaskTextField_Swift.framework */; };
+		0447C234246ABC020001E9F5 /* JMMaskTextField_Swift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1B4246ABB760001E9F5 /* JMMaskTextField_Swift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0447C235246ABC4A0001E9F5 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C198246ABB750001E9F5 /* nanopb.framework */; };
+		0447C236246ABC4A0001E9F5 /* nanopb.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C198246ABB750001E9F5 /* nanopb.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0447C237246ABC4D0001E9F5 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C19B246ABB750001E9F5 /* ObjectMapper.framework */; };
+		0447C238246ABC4D0001E9F5 /* ObjectMapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C19B246ABB750001E9F5 /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0447C239246ABC4F0001E9F5 /* OHHTTPStubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1C4246ABB780001E9F5 /* OHHTTPStubs.framework */; };
+		0447C23A246ABC4F0001E9F5 /* OHHTTPStubs.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1C4246ABB780001E9F5 /* OHHTTPStubs.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0447C23B246ABC510001E9F5 /* PhoneNumberKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C18A246ABB740001E9F5 /* PhoneNumberKit.framework */; };
+		0447C23C246ABC510001E9F5 /* PhoneNumberKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C18A246ABB740001E9F5 /* PhoneNumberKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0447C23D246ABC540001E9F5 /* Pods_myLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1BD246ABB770001E9F5 /* Pods_myLibrary.framework */; };
+		0447C23E246ABC550001E9F5 /* Pods_myLibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1BD246ABB770001E9F5 /* Pods_myLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0447C23F246ABC560001E9F5 /* Pods_resources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1CE246ABB790001E9F5 /* Pods_resources.framework */; };
+		0447C240246ABC560001E9F5 /* Pods_resources.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1CE246ABB790001E9F5 /* Pods_resources.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0447C241246ABC580001E9F5 /* protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1A1246ABB750001E9F5 /* protobuf.framework */; };
+		0447C242246ABC580001E9F5 /* protobuf.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1A1246ABB750001E9F5 /* protobuf.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0447C243246ABC5A0001E9F5 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1AF246ABB760001E9F5 /* SQLite.framework */; };
+		0447C244246ABC5A0001E9F5 /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1AF246ABB760001E9F5 /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0447C245246ABC5B0001E9F5 /* SVPinView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1B7246ABB760001E9F5 /* SVPinView.framework */; };
+		0447C246246ABC5C0001E9F5 /* SVPinView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1B7246ABB760001E9F5 /* SVPinView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0447C247246ABC5D0001E9F5 /* Toast_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1CD246ABB790001E9F5 /* Toast_Swift.framework */; };
+		0447C248246ABC5D0001E9F5 /* Toast_Swift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1CD246ABB790001E9F5 /* Toast_Swift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0447C249246ABC5F0001E9F5 /* XLPagerTabStrip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1D1246ABB790001E9F5 /* XLPagerTabStrip.framework */; };
+		0447C24A246ABC5F0001E9F5 /* XLPagerTabStrip.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C1D1246ABB790001E9F5 /* XLPagerTabStrip.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		04E68E402465AB2300FDA1BC /* Pods_MSSlibIOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D26BF3618869035FDCFD35A0 /* Pods_MSSlibIOS_Example.framework */; };
 		04E68E412465AB2300FDA1BC /* Pods_MSSlibIOS_Example.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D26BF3618869035FDCFD35A0 /* Pods_MSSlibIOS_Example.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04E68FD02465B73200FDA1BC /* Toast_Swift.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 04E68F772465B73100FDA1BC /* Toast_Swift.framework.dSYM */; };
-		04E68FD32465B73200FDA1BC /* ImageSlideshow.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 04E68F7B2465B73100FDA1BC /* ImageSlideshow.framework.dSYM */; };
-		04E68FD52465B73200FDA1BC /* InputMask.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 04E68F7E2465B73100FDA1BC /* InputMask.framework.dSYM */; };
-		04E68FD72465B73200FDA1BC /* Alamofire.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 04E68F812465B73100FDA1BC /* Alamofire.framework.dSYM */; };
-		04E68FDA2465B73200FDA1BC /* FBLPromises.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 04E68F872465B73100FDA1BC /* FBLPromises.framework.dSYM */; };
-		04E68FDC2465B73200FDA1BC /* iOSDropDown.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 04E68F8A2465B73200FDA1BC /* iOSDropDown.framework.dSYM */; };
-		04E68FDF2465B73200FDA1BC /* IVMaskField.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 04E68F8F2465B73200FDA1BC /* IVMaskField.framework.dSYM */; };
-		04E68FE12465B73200FDA1BC /* AlamofireObjectMapper.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 04E68F932465B73200FDA1BC /* AlamofireObjectMapper.framework.dSYM */; };
-		04E68FE52465B73200FDA1BC /* AKMaskField.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 04E68F992465B73200FDA1BC /* AKMaskField.framework.dSYM */; };
-		04E68FE62465B73200FDA1BC /* arm64-apple-ios.swiftdoc in Resources */ = {isa = PBXBuildFile; fileRef = 04E68F9B2465B73200FDA1BC /* arm64-apple-ios.swiftdoc */; };
-		04E68FE72465B73200FDA1BC /* arm64.swiftmodule in Resources */ = {isa = PBXBuildFile; fileRef = 04E68F9C2465B73200FDA1BC /* arm64.swiftmodule */; };
-		04E68FE82465B73200FDA1BC /* arm64-apple-ios.swiftmodule in Resources */ = {isa = PBXBuildFile; fileRef = 04E68F9D2465B73200FDA1BC /* arm64-apple-ios.swiftmodule */; };
-		04E68FE92465B73200FDA1BC /* arm64.swiftdoc in Resources */ = {isa = PBXBuildFile; fileRef = 04E68F9E2465B73200FDA1BC /* arm64.swiftdoc */; };
-		04E68FEA2465B73200FDA1BC /* SQLite.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 04E68FA02465B73200FDA1BC /* SQLite.framework.dSYM */; };
-		04E68FEC2465B73200FDA1BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E68FA22465B73200FDA1BC /* Assets.xcassets */; };
-		04E68FEE2465B73200FDA1BC /* ATAppUpdater.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 04E68FA52465B73200FDA1BC /* ATAppUpdater.framework.dSYM */; };
-		04E68FF32465B73200FDA1BC /* OHHTTPStubs.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 04E68FAD2465B73200FDA1BC /* OHHTTPStubs.framework.dSYM */; };
-		04E68FF42465B73200FDA1BC /* Assets.car in Resources */ = {isa = PBXBuildFile; fileRef = 04E68FAE2465B73200FDA1BC /* Assets.car */; };
-		04E68FF52465B73200FDA1BC /* XLPagerTabStrip.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04E68FB02465B73200FDA1BC /* XLPagerTabStrip.bundle */; };
-		04E68FF72465B73200FDA1BC /* XLPagerTabStrip.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 04E68FB22465B73200FDA1BC /* XLPagerTabStrip.framework.dSYM */; };
-		04E68FFC2465B73200FDA1BC /* IQKeyboardManagerSwift.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 04E68FB92465B73200FDA1BC /* IQKeyboardManagerSwift.framework.dSYM */; };
-		04E68FFE2465B73200FDA1BC /* ObjectMapper.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 04E68FBC2465B73200FDA1BC /* ObjectMapper.framework.dSYM */; };
-		04E690002465B73200FDA1BC /* GoogleUtilities.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 04E68FBF2465B73200FDA1BC /* GoogleUtilities.framework.dSYM */; };
-		04E690032465B73200FDA1BC /* JMMaskTextField_Swift.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 04E68FC32465B73200FDA1BC /* JMMaskTextField_Swift.framework.dSYM */; };
-		04E690052465B73200FDA1BC /* SVPinView.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 04E68FC62465B73200FDA1BC /* SVPinView.framework.dSYM */; };
-		04E690072465B73200FDA1BC /* nanopb.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 04E68FC92465B73200FDA1BC /* nanopb.framework.dSYM */; };
-		04E690092465B73200FDA1BC /* protobuf.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 04E68FCC2465B73200FDA1BC /* protobuf.framework.dSYM */; };
-		04E6900B2465B73200FDA1BC /* PhoneNumberKit.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 04E68FCF2465B73200FDA1BC /* PhoneNumberKit.framework.dSYM */; };
-		04E6900C2465BB5300FDA1BC /* AKMaskField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68F982465B73200FDA1BC /* AKMaskField.framework */; };
-		04E6900D2465BB5300FDA1BC /* AKMaskField.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68F982465B73200FDA1BC /* AKMaskField.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04E6900E2465BB5500FDA1BC /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68F802465B73100FDA1BC /* Alamofire.framework */; };
-		04E6900F2465BB5500FDA1BC /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68F802465B73100FDA1BC /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04E690102465BB5700FDA1BC /* AlamofireObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68F942465B73200FDA1BC /* AlamofireObjectMapper.framework */; };
-		04E690112465BB5700FDA1BC /* AlamofireObjectMapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68F942465B73200FDA1BC /* AlamofireObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04E690122465BB5900FDA1BC /* ATAppUpdater.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68FA42465B73200FDA1BC /* ATAppUpdater.framework */; };
-		04E690132465BB5900FDA1BC /* ATAppUpdater.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68FA42465B73200FDA1BC /* ATAppUpdater.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04E690142465BB5B00FDA1BC /* FBLPromises.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68F862465B73100FDA1BC /* FBLPromises.framework */; };
-		04E690152465BB5B00FDA1BC /* FBLPromises.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68F862465B73100FDA1BC /* FBLPromises.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04E690162465BB5D00FDA1BC /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68F842465B73100FDA1BC /* FirebaseCore.framework */; };
-		04E690172465BB5D00FDA1BC /* FirebaseCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68F842465B73100FDA1BC /* FirebaseCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04E690182465BB7000FDA1BC /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68FA72465B73200FDA1BC /* FirebaseCoreDiagnostics.framework */; };
-		04E690192465BB7000FDA1BC /* FirebaseCoreDiagnostics.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68FA72465B73200FDA1BC /* FirebaseCoreDiagnostics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04E6901A2465BB7400FDA1BC /* FirebaseInstallations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68FA92465B73200FDA1BC /* FirebaseInstallations.framework */; };
-		04E6901B2465BB7400FDA1BC /* FirebaseInstallations.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68FA92465B73200FDA1BC /* FirebaseInstallations.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04E6901C2465BB7600FDA1BC /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68F962465B73200FDA1BC /* FirebaseInstanceID.framework */; };
-		04E6901D2465BB7600FDA1BC /* FirebaseInstanceID.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68F962465B73200FDA1BC /* FirebaseInstanceID.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04E6901E2465BB7800FDA1BC /* FirebaseMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68FB62465B73200FDA1BC /* FirebaseMessaging.framework */; };
-		04E6901F2465BB7800FDA1BC /* FirebaseMessaging.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68FB62465B73200FDA1BC /* FirebaseMessaging.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04E690202465BB7900FDA1BC /* GoogleDataTransport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68F8C2465B73200FDA1BC /* GoogleDataTransport.framework */; };
-		04E690212465BB7900FDA1BC /* GoogleDataTransport.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68F8C2465B73200FDA1BC /* GoogleDataTransport.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04E690222465BB7B00FDA1BC /* GoogleDataTransportCCTSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68F912465B73200FDA1BC /* GoogleDataTransportCCTSupport.framework */; };
-		04E690232465BB7B00FDA1BC /* GoogleDataTransportCCTSupport.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68F912465B73200FDA1BC /* GoogleDataTransportCCTSupport.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04E690242465BB7D00FDA1BC /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68FBE2465B73200FDA1BC /* GoogleUtilities.framework */; };
-		04E690252465BB7D00FDA1BC /* GoogleUtilities.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68FBE2465B73200FDA1BC /* GoogleUtilities.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04E690262465BB7F00FDA1BC /* ImageSlideshow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68F7A2465B73100FDA1BC /* ImageSlideshow.framework */; };
-		04E690272465BB7F00FDA1BC /* ImageSlideshow.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68F7A2465B73100FDA1BC /* ImageSlideshow.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04E690282465BB8000FDA1BC /* InputMask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68F7D2465B73100FDA1BC /* InputMask.framework */; };
-		04E690292465BB8000FDA1BC /* InputMask.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68F7D2465B73100FDA1BC /* InputMask.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04E6902A2465BB8100FDA1BC /* iOSDropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68F892465B73100FDA1BC /* iOSDropDown.framework */; };
-		04E6902B2465BB8100FDA1BC /* iOSDropDown.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68F892465B73100FDA1BC /* iOSDropDown.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04E6902C2465BB8300FDA1BC /* IQKeyboardManagerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68FB82465B73200FDA1BC /* IQKeyboardManagerSwift.framework */; };
-		04E6902D2465BB8300FDA1BC /* IQKeyboardManagerSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68FB82465B73200FDA1BC /* IQKeyboardManagerSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04E6902E2465BB8400FDA1BC /* IVMaskField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68F8E2465B73200FDA1BC /* IVMaskField.framework */; };
-		04E6902F2465BB8400FDA1BC /* IVMaskField.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68F8E2465B73200FDA1BC /* IVMaskField.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04E690302465BB8600FDA1BC /* JMMaskTextField_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68FC22465B73200FDA1BC /* JMMaskTextField_Swift.framework */; };
-		04E690312465BB8600FDA1BC /* JMMaskTextField_Swift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68FC22465B73200FDA1BC /* JMMaskTextField_Swift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04E690322465BB8900FDA1BC /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68FC82465B73200FDA1BC /* nanopb.framework */; };
-		04E690332465BB8900FDA1BC /* nanopb.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68FC82465B73200FDA1BC /* nanopb.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04E690342465BB8A00FDA1BC /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68FBB2465B73200FDA1BC /* ObjectMapper.framework */; };
-		04E690352465BB8A00FDA1BC /* ObjectMapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68FBB2465B73200FDA1BC /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04E690362465BB8C00FDA1BC /* OHHTTPStubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68FAC2465B73200FDA1BC /* OHHTTPStubs.framework */; };
-		04E690372465BB8C00FDA1BC /* OHHTTPStubs.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68FAC2465B73200FDA1BC /* OHHTTPStubs.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04E690382465BB8D00FDA1BC /* PhoneNumberKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68FCE2465B73200FDA1BC /* PhoneNumberKit.framework */; };
-		04E690392465BB8D00FDA1BC /* PhoneNumberKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68FCE2465B73200FDA1BC /* PhoneNumberKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04E6903A2465BB9200FDA1BC /* Pods_myLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68FB42465B73200FDA1BC /* Pods_myLibrary.framework */; };
-		04E6903B2465BB9200FDA1BC /* Pods_myLibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68FB42465B73200FDA1BC /* Pods_myLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04E6903C2465BB9600FDA1BC /* Pods_resources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68FAA2465B73200FDA1BC /* Pods_resources.framework */; };
-		04E6903D2465BB9600FDA1BC /* Pods_resources.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68FAA2465B73200FDA1BC /* Pods_resources.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04E6903E2465BB9700FDA1BC /* protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68FCB2465B73200FDA1BC /* protobuf.framework */; };
-		04E6903F2465BB9700FDA1BC /* protobuf.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68FCB2465B73200FDA1BC /* protobuf.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04E690402465BB9800FDA1BC /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68FA12465B73200FDA1BC /* SQLite.framework */; };
-		04E690412465BB9800FDA1BC /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68FA12465B73200FDA1BC /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04E690422465BB9A00FDA1BC /* SVPinView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68FC52465B73200FDA1BC /* SVPinView.framework */; };
-		04E690432465BB9A00FDA1BC /* SVPinView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68FC52465B73200FDA1BC /* SVPinView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04E690442465BB9B00FDA1BC /* Toast_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68F782465B73100FDA1BC /* Toast_Swift.framework */; };
-		04E690452465BB9B00FDA1BC /* Toast_Swift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68F782465B73100FDA1BC /* Toast_Swift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04E690462465BB9D00FDA1BC /* XLPagerTabStrip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68FB12465B73200FDA1BC /* XLPagerTabStrip.framework */; };
-		04E690472465BB9D00FDA1BC /* XLPagerTabStrip.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04E68FB12465B73200FDA1BC /* XLPagerTabStrip.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		04E6904D2469457B00FDA1BC /* UserPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6904C2469457B00FDA1BC /* UserPayment.swift */; };
-		04E6906924695C6300FDA1BC /* resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04E6906224695C6200FDA1BC /* resources.bundle */; };
-		04E6906A24695C6300FDA1BC /* libmyLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E6906324695C6200FDA1BC /* libmyLibrary.a */; };
-		04E6906B24695C6300FDA1BC /* arm64-apple-ios.swiftdoc in Resources */ = {isa = PBXBuildFile; fileRef = 04E6906524695C6300FDA1BC /* arm64-apple-ios.swiftdoc */; };
-		04E6906C24695C6300FDA1BC /* arm64.swiftmodule in Resources */ = {isa = PBXBuildFile; fileRef = 04E6906624695C6300FDA1BC /* arm64.swiftmodule */; };
-		04E6906D24695C6300FDA1BC /* arm64-apple-ios.swiftmodule in Resources */ = {isa = PBXBuildFile; fileRef = 04E6906724695C6300FDA1BC /* arm64-apple-ios.swiftmodule */; };
-		04E6906E24695C6300FDA1BC /* arm64.swiftdoc in Resources */ = {isa = PBXBuildFile; fileRef = 04E6906824695C6300FDA1BC /* arm64.swiftdoc */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -131,36 +127,36 @@
 			dstSubfolderSpec = 10;
 			files = (
 				04E68E412465AB2300FDA1BC /* Pods_MSSlibIOS_Example.framework in Embed Frameworks */,
-				04E690132465BB5900FDA1BC /* ATAppUpdater.framework in Embed Frameworks */,
-				04E6900F2465BB5500FDA1BC /* Alamofire.framework in Embed Frameworks */,
-				04E690312465BB8600FDA1BC /* JMMaskTextField_Swift.framework in Embed Frameworks */,
-				04E6902B2465BB8100FDA1BC /* iOSDropDown.framework in Embed Frameworks */,
-				04E6903F2465BB9700FDA1BC /* protobuf.framework in Embed Frameworks */,
-				04E690432465BB9A00FDA1BC /* SVPinView.framework in Embed Frameworks */,
-				04E690152465BB5B00FDA1BC /* FBLPromises.framework in Embed Frameworks */,
-				04E690172465BB5D00FDA1BC /* FirebaseCore.framework in Embed Frameworks */,
-				04E690272465BB7F00FDA1BC /* ImageSlideshow.framework in Embed Frameworks */,
-				04E6901B2465BB7400FDA1BC /* FirebaseInstallations.framework in Embed Frameworks */,
-				04E690252465BB7D00FDA1BC /* GoogleUtilities.framework in Embed Frameworks */,
-				04E690332465BB8900FDA1BC /* nanopb.framework in Embed Frameworks */,
-				04E690192465BB7000FDA1BC /* FirebaseCoreDiagnostics.framework in Embed Frameworks */,
-				04E690452465BB9B00FDA1BC /* Toast_Swift.framework in Embed Frameworks */,
-				04E690352465BB8A00FDA1BC /* ObjectMapper.framework in Embed Frameworks */,
-				04E690412465BB9800FDA1BC /* SQLite.framework in Embed Frameworks */,
-				04E6902F2465BB8400FDA1BC /* IVMaskField.framework in Embed Frameworks */,
-				04E6901D2465BB7600FDA1BC /* FirebaseInstanceID.framework in Embed Frameworks */,
-				04E690392465BB8D00FDA1BC /* PhoneNumberKit.framework in Embed Frameworks */,
-				04E6900D2465BB5300FDA1BC /* AKMaskField.framework in Embed Frameworks */,
-				04E690292465BB8000FDA1BC /* InputMask.framework in Embed Frameworks */,
-				04E690472465BB9D00FDA1BC /* XLPagerTabStrip.framework in Embed Frameworks */,
-				04E6903D2465BB9600FDA1BC /* Pods_resources.framework in Embed Frameworks */,
-				04E690372465BB8C00FDA1BC /* OHHTTPStubs.framework in Embed Frameworks */,
-				04E6903B2465BB9200FDA1BC /* Pods_myLibrary.framework in Embed Frameworks */,
-				04E690232465BB7B00FDA1BC /* GoogleDataTransportCCTSupport.framework in Embed Frameworks */,
-				04E690212465BB7900FDA1BC /* GoogleDataTransport.framework in Embed Frameworks */,
-				04E690112465BB5700FDA1BC /* AlamofireObjectMapper.framework in Embed Frameworks */,
-				04E6902D2465BB8300FDA1BC /* IQKeyboardManagerSwift.framework in Embed Frameworks */,
-				04E6901F2465BB7800FDA1BC /* FirebaseMessaging.framework in Embed Frameworks */,
+				0447C216246ABB900001E9F5 /* ATAppUpdater.framework in Embed Frameworks */,
+				0447C212246ABB8C0001E9F5 /* Alamofire.framework in Embed Frameworks */,
+				0447C234246ABC020001E9F5 /* JMMaskTextField_Swift.framework in Embed Frameworks */,
+				0447C22E246ABBE20001E9F5 /* iOSDropDown.framework in Embed Frameworks */,
+				0447C242246ABC580001E9F5 /* protobuf.framework in Embed Frameworks */,
+				0447C246246ABC5C0001E9F5 /* SVPinView.framework in Embed Frameworks */,
+				0447C218246ABB920001E9F5 /* FBLPromises.framework in Embed Frameworks */,
+				0447C21A246ABB930001E9F5 /* FirebaseCore.framework in Embed Frameworks */,
+				0447C22A246ABBB70001E9F5 /* ImageSlideshow.framework in Embed Frameworks */,
+				0447C21E246ABB970001E9F5 /* FirebaseInstallations.framework in Embed Frameworks */,
+				0447C228246ABBB40001E9F5 /* GoogleUtilities.framework in Embed Frameworks */,
+				0447C236246ABC4A0001E9F5 /* nanopb.framework in Embed Frameworks */,
+				0447C21C246ABB950001E9F5 /* FirebaseCoreDiagnostics.framework in Embed Frameworks */,
+				0447C248246ABC5D0001E9F5 /* Toast_Swift.framework in Embed Frameworks */,
+				0447C238246ABC4D0001E9F5 /* ObjectMapper.framework in Embed Frameworks */,
+				0447C244246ABC5A0001E9F5 /* SQLite.framework in Embed Frameworks */,
+				0447C232246ABC000001E9F5 /* IVMaskField.framework in Embed Frameworks */,
+				0447C220246ABB9A0001E9F5 /* FirebaseInstanceID.framework in Embed Frameworks */,
+				0447C23C246ABC510001E9F5 /* PhoneNumberKit.framework in Embed Frameworks */,
+				0447C210246ABB8A0001E9F5 /* AKMaskField.framework in Embed Frameworks */,
+				0447C22C246ABBBA0001E9F5 /* InputMask.framework in Embed Frameworks */,
+				0447C24A246ABC5F0001E9F5 /* XLPagerTabStrip.framework in Embed Frameworks */,
+				0447C240246ABC560001E9F5 /* Pods_resources.framework in Embed Frameworks */,
+				0447C23A246ABC4F0001E9F5 /* OHHTTPStubs.framework in Embed Frameworks */,
+				0447C23E246ABC550001E9F5 /* Pods_myLibrary.framework in Embed Frameworks */,
+				0447C226246ABBB10001E9F5 /* GoogleDataTransportCCTSupport.framework in Embed Frameworks */,
+				0447C224246ABBAA0001E9F5 /* GoogleDataTransport.framework in Embed Frameworks */,
+				0447C214246ABB8E0001E9F5 /* AlamofireObjectMapper.framework in Embed Frameworks */,
+				0447C230246ABBF70001E9F5 /* IQKeyboardManagerSwift.framework in Embed Frameworks */,
+				0447C222246ABBA30001E9F5 /* FirebaseMessaging.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,73 +164,69 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		04E68F772465B73100FDA1BC /* Toast_Swift.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Toast_Swift.framework.dSYM; sourceTree = "<group>"; };
-		04E68F782465B73100FDA1BC /* Toast_Swift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Toast_Swift.framework; sourceTree = "<group>"; };
-		04E68F7A2465B73100FDA1BC /* ImageSlideshow.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ImageSlideshow.framework; sourceTree = "<group>"; };
-		04E68F7B2465B73100FDA1BC /* ImageSlideshow.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = ImageSlideshow.framework.dSYM; sourceTree = "<group>"; };
-		04E68F7D2465B73100FDA1BC /* InputMask.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = InputMask.framework; sourceTree = "<group>"; };
-		04E68F7E2465B73100FDA1BC /* InputMask.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = InputMask.framework.dSYM; sourceTree = "<group>"; };
-		04E68F802465B73100FDA1BC /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
-		04E68F812465B73100FDA1BC /* Alamofire.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Alamofire.framework.dSYM; sourceTree = "<group>"; };
-		04E68F822465B73100FDA1BC /* RSAEncryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAEncryption.h; sourceTree = "<group>"; };
-		04E68F842465B73100FDA1BC /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
-		04E68F862465B73100FDA1BC /* FBLPromises.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBLPromises.framework; sourceTree = "<group>"; };
-		04E68F872465B73100FDA1BC /* FBLPromises.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = FBLPromises.framework.dSYM; sourceTree = "<group>"; };
-		04E68F892465B73100FDA1BC /* iOSDropDown.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iOSDropDown.framework; sourceTree = "<group>"; };
-		04E68F8A2465B73200FDA1BC /* iOSDropDown.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = iOSDropDown.framework.dSYM; sourceTree = "<group>"; };
-		04E68F8C2465B73200FDA1BC /* GoogleDataTransport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleDataTransport.framework; sourceTree = "<group>"; };
-		04E68F8E2465B73200FDA1BC /* IVMaskField.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IVMaskField.framework; sourceTree = "<group>"; };
-		04E68F8F2465B73200FDA1BC /* IVMaskField.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = IVMaskField.framework.dSYM; sourceTree = "<group>"; };
-		04E68F912465B73200FDA1BC /* GoogleDataTransportCCTSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleDataTransportCCTSupport.framework; sourceTree = "<group>"; };
-		04E68F932465B73200FDA1BC /* AlamofireObjectMapper.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = AlamofireObjectMapper.framework.dSYM; sourceTree = "<group>"; };
-		04E68F942465B73200FDA1BC /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlamofireObjectMapper.framework; sourceTree = "<group>"; };
-		04E68F962465B73200FDA1BC /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
-		04E68F982465B73200FDA1BC /* AKMaskField.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AKMaskField.framework; sourceTree = "<group>"; };
-		04E68F992465B73200FDA1BC /* AKMaskField.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = AKMaskField.framework.dSYM; sourceTree = "<group>"; };
-		04E68F9B2465B73200FDA1BC /* arm64-apple-ios.swiftdoc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "arm64-apple-ios.swiftdoc"; sourceTree = "<group>"; };
-		04E68F9C2465B73200FDA1BC /* arm64.swiftmodule */ = {isa = PBXFileReference; lastKnownFileType = file; path = arm64.swiftmodule; sourceTree = "<group>"; };
-		04E68F9D2465B73200FDA1BC /* arm64-apple-ios.swiftmodule */ = {isa = PBXFileReference; lastKnownFileType = file; path = "arm64-apple-ios.swiftmodule"; sourceTree = "<group>"; };
-		04E68F9E2465B73200FDA1BC /* arm64.swiftdoc */ = {isa = PBXFileReference; lastKnownFileType = file; path = arm64.swiftdoc; sourceTree = "<group>"; };
-		04E68FA02465B73200FDA1BC /* SQLite.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = SQLite.framework.dSYM; sourceTree = "<group>"; };
-		04E68FA12465B73200FDA1BC /* SQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SQLite.framework; sourceTree = "<group>"; };
-		04E68FA22465B73200FDA1BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		04E68FA42465B73200FDA1BC /* ATAppUpdater.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ATAppUpdater.framework; sourceTree = "<group>"; };
-		04E68FA52465B73200FDA1BC /* ATAppUpdater.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = ATAppUpdater.framework.dSYM; sourceTree = "<group>"; };
-		04E68FA72465B73200FDA1BC /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
-		04E68FA92465B73200FDA1BC /* FirebaseInstallations.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstallations.framework; sourceTree = "<group>"; };
-		04E68FAA2465B73200FDA1BC /* Pods_resources.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Pods_resources.framework; sourceTree = "<group>"; };
-		04E68FAC2465B73200FDA1BC /* OHHTTPStubs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OHHTTPStubs.framework; sourceTree = "<group>"; };
-		04E68FAD2465B73200FDA1BC /* OHHTTPStubs.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = OHHTTPStubs.framework.dSYM; sourceTree = "<group>"; };
-		04E68FAE2465B73200FDA1BC /* Assets.car */ = {isa = PBXFileReference; lastKnownFileType = file; path = Assets.car; sourceTree = "<group>"; };
-		04E68FB02465B73200FDA1BC /* XLPagerTabStrip.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = XLPagerTabStrip.bundle; sourceTree = "<group>"; };
-		04E68FB12465B73200FDA1BC /* XLPagerTabStrip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XLPagerTabStrip.framework; sourceTree = "<group>"; };
-		04E68FB22465B73200FDA1BC /* XLPagerTabStrip.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = XLPagerTabStrip.framework.dSYM; sourceTree = "<group>"; };
-		04E68FB42465B73200FDA1BC /* Pods_myLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Pods_myLibrary.framework; sourceTree = "<group>"; };
-		04E68FB62465B73200FDA1BC /* FirebaseMessaging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseMessaging.framework; sourceTree = "<group>"; };
-		04E68FB82465B73200FDA1BC /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IQKeyboardManagerSwift.framework; sourceTree = "<group>"; };
-		04E68FB92465B73200FDA1BC /* IQKeyboardManagerSwift.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = IQKeyboardManagerSwift.framework.dSYM; sourceTree = "<group>"; };
-		04E68FBB2465B73200FDA1BC /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ObjectMapper.framework; sourceTree = "<group>"; };
-		04E68FBC2465B73200FDA1BC /* ObjectMapper.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = ObjectMapper.framework.dSYM; sourceTree = "<group>"; };
-		04E68FBE2465B73200FDA1BC /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
-		04E68FBF2465B73200FDA1BC /* GoogleUtilities.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = GoogleUtilities.framework.dSYM; sourceTree = "<group>"; };
-		04E68FC22465B73200FDA1BC /* JMMaskTextField_Swift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JMMaskTextField_Swift.framework; sourceTree = "<group>"; };
-		04E68FC32465B73200FDA1BC /* JMMaskTextField_Swift.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = JMMaskTextField_Swift.framework.dSYM; sourceTree = "<group>"; };
-		04E68FC52465B73200FDA1BC /* SVPinView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SVPinView.framework; sourceTree = "<group>"; };
-		04E68FC62465B73200FDA1BC /* SVPinView.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = SVPinView.framework.dSYM; sourceTree = "<group>"; };
-		04E68FC82465B73200FDA1BC /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
-		04E68FC92465B73200FDA1BC /* nanopb.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = nanopb.framework.dSYM; sourceTree = "<group>"; };
-		04E68FCB2465B73200FDA1BC /* protobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = protobuf.framework; sourceTree = "<group>"; };
-		04E68FCC2465B73200FDA1BC /* protobuf.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = protobuf.framework.dSYM; sourceTree = "<group>"; };
-		04E68FCE2465B73200FDA1BC /* PhoneNumberKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PhoneNumberKit.framework; sourceTree = "<group>"; };
-		04E68FCF2465B73200FDA1BC /* PhoneNumberKit.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = PhoneNumberKit.framework.dSYM; sourceTree = "<group>"; };
+		0447C179246AB8400001E9F5 /* resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = resources.bundle; path = ../../../MSSlibIOS/lib/resources.bundle; sourceTree = "<group>"; };
+		0447C17A246AB8410001E9F5 /* libmyLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmyLibrary.a; path = ../../../MSSlibIOS/lib/libmyLibrary.a; sourceTree = "<group>"; };
+		0447C17C246AB8410001E9F5 /* arm64-apple-ios.swiftdoc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "arm64-apple-ios.swiftdoc"; sourceTree = "<group>"; };
+		0447C17D246AB8410001E9F5 /* arm64.swiftmodule */ = {isa = PBXFileReference; lastKnownFileType = file; path = arm64.swiftmodule; sourceTree = "<group>"; };
+		0447C17E246AB8410001E9F5 /* arm64-apple-ios.swiftmodule */ = {isa = PBXFileReference; lastKnownFileType = file; path = "arm64-apple-ios.swiftmodule"; sourceTree = "<group>"; };
+		0447C17F246AB8410001E9F5 /* arm64.swiftdoc */ = {isa = PBXFileReference; lastKnownFileType = file; path = arm64.swiftdoc; sourceTree = "<group>"; };
+		0447C187246ABB740001E9F5 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		0447C188246ABB740001E9F5 /* Assets.car */ = {isa = PBXFileReference; lastKnownFileType = file; path = Assets.car; sourceTree = "<group>"; };
+		0447C18A246ABB740001E9F5 /* PhoneNumberKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PhoneNumberKit.framework; sourceTree = "<group>"; };
+		0447C18B246ABB740001E9F5 /* PhoneNumberKit.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = PhoneNumberKit.framework.dSYM; sourceTree = "<group>"; };
+		0447C18D246ABB740001E9F5 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
+		0447C18E246ABB740001E9F5 /* Alamofire.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Alamofire.framework.dSYM; sourceTree = "<group>"; };
+		0447C190246ABB740001E9F5 /* GoogleDataTransportCCTSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleDataTransportCCTSupport.framework; sourceTree = "<group>"; };
+		0447C192246ABB740001E9F5 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
+		0447C194246ABB750001E9F5 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
+		0447C196246ABB750001E9F5 /* GoogleDataTransport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleDataTransport.framework; sourceTree = "<group>"; };
+		0447C198246ABB750001E9F5 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
+		0447C199246ABB750001E9F5 /* nanopb.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = nanopb.framework.dSYM; sourceTree = "<group>"; };
+		0447C19B246ABB750001E9F5 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ObjectMapper.framework; sourceTree = "<group>"; };
+		0447C19C246ABB750001E9F5 /* ObjectMapper.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = ObjectMapper.framework.dSYM; sourceTree = "<group>"; };
+		0447C19E246ABB750001E9F5 /* ImageSlideshow.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ImageSlideshow.framework; sourceTree = "<group>"; };
+		0447C19F246ABB750001E9F5 /* ImageSlideshow.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = ImageSlideshow.framework.dSYM; sourceTree = "<group>"; };
+		0447C1A1246ABB750001E9F5 /* protobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = protobuf.framework; sourceTree = "<group>"; };
+		0447C1A2246ABB750001E9F5 /* protobuf.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = protobuf.framework.dSYM; sourceTree = "<group>"; };
+		0447C1A3246ABB750001E9F5 /* RSAEncryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAEncryption.h; sourceTree = "<group>"; };
+		0447C1A5246ABB750001E9F5 /* iOSDropDown.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iOSDropDown.framework; sourceTree = "<group>"; };
+		0447C1A6246ABB750001E9F5 /* iOSDropDown.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = iOSDropDown.framework.dSYM; sourceTree = "<group>"; };
+		0447C1A8246ABB750001E9F5 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IQKeyboardManagerSwift.framework; sourceTree = "<group>"; };
+		0447C1A9246ABB750001E9F5 /* IQKeyboardManagerSwift.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = IQKeyboardManagerSwift.framework.dSYM; sourceTree = "<group>"; };
+		0447C1AB246ABB760001E9F5 /* IVMaskField.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IVMaskField.framework; sourceTree = "<group>"; };
+		0447C1AC246ABB760001E9F5 /* IVMaskField.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = IVMaskField.framework.dSYM; sourceTree = "<group>"; };
+		0447C1AE246ABB760001E9F5 /* SQLite.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = SQLite.framework.dSYM; sourceTree = "<group>"; };
+		0447C1AF246ABB760001E9F5 /* SQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SQLite.framework; sourceTree = "<group>"; };
+		0447C1B1246ABB760001E9F5 /* InputMask.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = InputMask.framework; sourceTree = "<group>"; };
+		0447C1B2246ABB760001E9F5 /* InputMask.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = InputMask.framework.dSYM; sourceTree = "<group>"; };
+		0447C1B4246ABB760001E9F5 /* JMMaskTextField_Swift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JMMaskTextField_Swift.framework; sourceTree = "<group>"; };
+		0447C1B5246ABB760001E9F5 /* JMMaskTextField_Swift.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = JMMaskTextField_Swift.framework.dSYM; sourceTree = "<group>"; };
+		0447C1B7246ABB760001E9F5 /* SVPinView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SVPinView.framework; sourceTree = "<group>"; };
+		0447C1B8246ABB760001E9F5 /* SVPinView.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = SVPinView.framework.dSYM; sourceTree = "<group>"; };
+		0447C1B9246ABB760001E9F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0447C1BB246ABB760001E9F5 /* AlamofireObjectMapper.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = AlamofireObjectMapper.framework.dSYM; sourceTree = "<group>"; };
+		0447C1BC246ABB760001E9F5 /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlamofireObjectMapper.framework; sourceTree = "<group>"; };
+		0447C1BD246ABB770001E9F5 /* Pods_myLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Pods_myLibrary.framework; sourceTree = "<group>"; };
+		0447C1BF246ABB770001E9F5 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
+		0447C1C0246ABB770001E9F5 /* GoogleUtilities.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = GoogleUtilities.framework.dSYM; sourceTree = "<group>"; };
+		0447C1C2246ABB780001E9F5 /* FirebaseMessaging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseMessaging.framework; sourceTree = "<group>"; };
+		0447C1C4246ABB780001E9F5 /* OHHTTPStubs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OHHTTPStubs.framework; sourceTree = "<group>"; };
+		0447C1C5246ABB780001E9F5 /* OHHTTPStubs.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = OHHTTPStubs.framework.dSYM; sourceTree = "<group>"; };
+		0447C1C7246ABB780001E9F5 /* FirebaseInstallations.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstallations.framework; sourceTree = "<group>"; };
+		0447C1C9246ABB780001E9F5 /* AKMaskField.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AKMaskField.framework; sourceTree = "<group>"; };
+		0447C1CA246ABB780001E9F5 /* AKMaskField.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = AKMaskField.framework.dSYM; sourceTree = "<group>"; };
+		0447C1CC246ABB790001E9F5 /* Toast_Swift.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Toast_Swift.framework.dSYM; sourceTree = "<group>"; };
+		0447C1CD246ABB790001E9F5 /* Toast_Swift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Toast_Swift.framework; sourceTree = "<group>"; };
+		0447C1CE246ABB790001E9F5 /* Pods_resources.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Pods_resources.framework; sourceTree = "<group>"; };
+		0447C1D0246ABB790001E9F5 /* XLPagerTabStrip.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = XLPagerTabStrip.bundle; sourceTree = "<group>"; };
+		0447C1D1246ABB790001E9F5 /* XLPagerTabStrip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XLPagerTabStrip.framework; sourceTree = "<group>"; };
+		0447C1D2246ABB790001E9F5 /* XLPagerTabStrip.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = XLPagerTabStrip.framework.dSYM; sourceTree = "<group>"; };
+		0447C1D4246ABB790001E9F5 /* ATAppUpdater.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ATAppUpdater.framework; sourceTree = "<group>"; };
+		0447C1D5246ABB790001E9F5 /* ATAppUpdater.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = ATAppUpdater.framework.dSYM; sourceTree = "<group>"; };
+		0447C1D7246ABB790001E9F5 /* FBLPromises.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBLPromises.framework; sourceTree = "<group>"; };
+		0447C1D8246ABB790001E9F5 /* FBLPromises.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = FBLPromises.framework.dSYM; sourceTree = "<group>"; };
 		04E6904C2469457B00FDA1BC /* UserPayment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPayment.swift; sourceTree = "<group>"; };
-		04E6906224695C6200FDA1BC /* resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = resources.bundle; sourceTree = "<group>"; };
-		04E6906324695C6200FDA1BC /* libmyLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmyLibrary.a; sourceTree = "<group>"; };
-		04E6906524695C6300FDA1BC /* arm64-apple-ios.swiftdoc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "arm64-apple-ios.swiftdoc"; sourceTree = "<group>"; };
-		04E6906624695C6300FDA1BC /* arm64.swiftmodule */ = {isa = PBXFileReference; lastKnownFileType = file; path = arm64.swiftmodule; sourceTree = "<group>"; };
-		04E6906724695C6300FDA1BC /* arm64-apple-ios.swiftmodule */ = {isa = PBXFileReference; lastKnownFileType = file; path = "arm64-apple-ios.swiftmodule"; sourceTree = "<group>"; };
-		04E6906824695C6300FDA1BC /* arm64.swiftdoc */ = {isa = PBXFileReference; lastKnownFileType = file; path = arm64.swiftdoc; sourceTree = "<group>"; };
-		297531242E860DBACB9D43CC /* MSSlibIOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = MSSlibIOS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		297531242E860DBACB9D43CC /* MSSlibIOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MSSlibIOS.podspec; path = ../MSSlibIOS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3F082FF84B476408C25D4691 /* Pods-MSSlibIOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSSlibIOS_Example.release.xcconfig"; path = "Target Support Files/Pods-MSSlibIOS_Example/Pods-MSSlibIOS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4A355D7C0209E889CB988D6E /* Pods_MSSlibIOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSSlibIOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* MSSlibIOS_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSSlibIOS_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -260,38 +252,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E6902E2465BB8400FDA1BC /* IVMaskField.framework in Frameworks */,
-				04E6901A2465BB7400FDA1BC /* FirebaseInstallations.framework in Frameworks */,
-				04E6903C2465BB9600FDA1BC /* Pods_resources.framework in Frameworks */,
-				04E6903A2465BB9200FDA1BC /* Pods_myLibrary.framework in Frameworks */,
+				0447C231246ABC000001E9F5 /* IVMaskField.framework in Frameworks */,
+				0447C21D246ABB970001E9F5 /* FirebaseInstallations.framework in Frameworks */,
 				04E68E402465AB2300FDA1BC /* Pods_MSSlibIOS_Example.framework in Frameworks */,
-				04E690102465BB5700FDA1BC /* AlamofireObjectMapper.framework in Frameworks */,
-				04E690262465BB7F00FDA1BC /* ImageSlideshow.framework in Frameworks */,
-				04E690442465BB9B00FDA1BC /* Toast_Swift.framework in Frameworks */,
-				04E6902A2465BB8100FDA1BC /* iOSDropDown.framework in Frameworks */,
-				04E690322465BB8900FDA1BC /* nanopb.framework in Frameworks */,
-				04E690282465BB8000FDA1BC /* InputMask.framework in Frameworks */,
-				04E6900C2465BB5300FDA1BC /* AKMaskField.framework in Frameworks */,
-				04E690342465BB8A00FDA1BC /* ObjectMapper.framework in Frameworks */,
-				04E690242465BB7D00FDA1BC /* GoogleUtilities.framework in Frameworks */,
-				04E690142465BB5B00FDA1BC /* FBLPromises.framework in Frameworks */,
-				04E6906A24695C6300FDA1BC /* libmyLibrary.a in Frameworks */,
-				04E690302465BB8600FDA1BC /* JMMaskTextField_Swift.framework in Frameworks */,
-				04E690462465BB9D00FDA1BC /* XLPagerTabStrip.framework in Frameworks */,
-				04E6901E2465BB7800FDA1BC /* FirebaseMessaging.framework in Frameworks */,
-				04E690162465BB5D00FDA1BC /* FirebaseCore.framework in Frameworks */,
-				04E6901C2465BB7600FDA1BC /* FirebaseInstanceID.framework in Frameworks */,
-				04E690122465BB5900FDA1BC /* ATAppUpdater.framework in Frameworks */,
-				04E690362465BB8C00FDA1BC /* OHHTTPStubs.framework in Frameworks */,
-				04E690182465BB7000FDA1BC /* FirebaseCoreDiagnostics.framework in Frameworks */,
-				04E690202465BB7900FDA1BC /* GoogleDataTransport.framework in Frameworks */,
-				04E690222465BB7B00FDA1BC /* GoogleDataTransportCCTSupport.framework in Frameworks */,
-				04E690422465BB9A00FDA1BC /* SVPinView.framework in Frameworks */,
-				04E6902C2465BB8300FDA1BC /* IQKeyboardManagerSwift.framework in Frameworks */,
-				04E6900E2465BB5500FDA1BC /* Alamofire.framework in Frameworks */,
-				04E690382465BB8D00FDA1BC /* PhoneNumberKit.framework in Frameworks */,
-				04E690402465BB9800FDA1BC /* SQLite.framework in Frameworks */,
-				04E6903E2465BB9700FDA1BC /* protobuf.framework in Frameworks */,
+				0447C23F246ABC560001E9F5 /* Pods_resources.framework in Frameworks */,
+				0447C23D246ABC540001E9F5 /* Pods_myLibrary.framework in Frameworks */,
+				0447C213246ABB8E0001E9F5 /* AlamofireObjectMapper.framework in Frameworks */,
+				0447C22D246ABBE20001E9F5 /* iOSDropDown.framework in Frameworks */,
+				0447C247246ABC5D0001E9F5 /* Toast_Swift.framework in Frameworks */,
+				0447C229246ABBB70001E9F5 /* ImageSlideshow.framework in Frameworks */,
+				0447C235246ABC4A0001E9F5 /* nanopb.framework in Frameworks */,
+				0447C22B246ABBBA0001E9F5 /* InputMask.framework in Frameworks */,
+				0447C20F246ABB8A0001E9F5 /* AKMaskField.framework in Frameworks */,
+				0447C237246ABC4D0001E9F5 /* ObjectMapper.framework in Frameworks */,
+				0447C181246AB8410001E9F5 /* libmyLibrary.a in Frameworks */,
+				0447C227246ABBB40001E9F5 /* GoogleUtilities.framework in Frameworks */,
+				0447C217246ABB920001E9F5 /* FBLPromises.framework in Frameworks */,
+				0447C233246ABC020001E9F5 /* JMMaskTextField_Swift.framework in Frameworks */,
+				0447C249246ABC5F0001E9F5 /* XLPagerTabStrip.framework in Frameworks */,
+				0447C221246ABBA30001E9F5 /* FirebaseMessaging.framework in Frameworks */,
+				0447C219246ABB930001E9F5 /* FirebaseCore.framework in Frameworks */,
+				0447C21F246ABB990001E9F5 /* FirebaseInstanceID.framework in Frameworks */,
+				0447C215246ABB900001E9F5 /* ATAppUpdater.framework in Frameworks */,
+				0447C239246ABC4F0001E9F5 /* OHHTTPStubs.framework in Frameworks */,
+				0447C21B246ABB950001E9F5 /* FirebaseCoreDiagnostics.framework in Frameworks */,
+				0447C223246ABBAA0001E9F5 /* GoogleDataTransport.framework in Frameworks */,
+				0447C225246ABBB10001E9F5 /* GoogleDataTransportCCTSupport.framework in Frameworks */,
+				0447C245246ABC5B0001E9F5 /* SVPinView.framework in Frameworks */,
+				0447C22F246ABBF70001E9F5 /* IQKeyboardManagerSwift.framework in Frameworks */,
+				0447C211246ABB8C0001E9F5 /* Alamofire.framework in Frameworks */,
+				0447C23B246ABC510001E9F5 /* PhoneNumberKit.framework in Frameworks */,
+				0447C243246ABC5A0001E9F5 /* SQLite.framework in Frameworks */,
+				0447C241246ABC580001E9F5 /* protobuf.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,316 +298,305 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04E68F752465B73100FDA1BC /* lib */ = {
+		0447C17B246AB8410001E9F5 /* myLibrary.swiftmodule */ = {
 			isa = PBXGroup;
 			children = (
-				04E6906324695C6200FDA1BC /* libmyLibrary.a */,
-				04E6906424695C6300FDA1BC /* myLibrary.swiftmodule */,
-				04E6906224695C6200FDA1BC /* resources.bundle */,
-				04E68F762465B73100FDA1BC /* Toast-Swift */,
-				04E68F792465B73100FDA1BC /* ImageSlideshow */,
-				04E68F7C2465B73100FDA1BC /* InputMask */,
-				04E68F7F2465B73100FDA1BC /* Alamofire */,
-				04E68F822465B73100FDA1BC /* RSAEncryption.h */,
-				04E68F832465B73100FDA1BC /* FirebaseCore */,
-				04E68F852465B73100FDA1BC /* PromisesObjC */,
-				04E68F882465B73100FDA1BC /* iOSDropDown */,
-				04E68F8B2465B73200FDA1BC /* GoogleDataTransport */,
-				04E68F8D2465B73200FDA1BC /* IVMaskField */,
-				04E68F902465B73200FDA1BC /* GoogleDataTransportCCTSupport */,
-				04E68F922465B73200FDA1BC /* AlamofireObjectMapper */,
-				04E68F952465B73200FDA1BC /* FirebaseInstanceID */,
-				04E68F972465B73200FDA1BC /* AKMaskField */,
-				04E68F9A2465B73200FDA1BC /* myLibrary.swiftmodule */,
-				04E68F9F2465B73200FDA1BC /* SQLite.swift */,
-				04E68FA22465B73200FDA1BC /* Assets.xcassets */,
-				04E68FA32465B73200FDA1BC /* ATAppUpdater */,
-				04E68FA62465B73200FDA1BC /* FirebaseCoreDiagnostics */,
-				04E68FA82465B73200FDA1BC /* FirebaseInstallations */,
-				04E68FAA2465B73200FDA1BC /* Pods_resources.framework */,
-				04E68FAB2465B73200FDA1BC /* OHHTTPStubs */,
-				04E68FAE2465B73200FDA1BC /* Assets.car */,
-				04E68FAF2465B73200FDA1BC /* XLPagerTabStrip */,
-				04E68FB42465B73200FDA1BC /* Pods_myLibrary.framework */,
-				04E68FB52465B73200FDA1BC /* FirebaseMessaging */,
-				04E68FB72465B73200FDA1BC /* IQKeyboardManagerSwift */,
-				04E68FBA2465B73200FDA1BC /* ObjectMapper */,
-				04E68FBD2465B73200FDA1BC /* GoogleUtilities */,
-				04E68FC12465B73200FDA1BC /* JMMaskTextField-Swift */,
-				04E68FC42465B73200FDA1BC /* SVPinView */,
-				04E68FC72465B73200FDA1BC /* nanopb */,
-				04E68FCA2465B73200FDA1BC /* Protobuf */,
-				04E68FCD2465B73200FDA1BC /* PhoneNumberKit */,
+				0447C17C246AB8410001E9F5 /* arm64-apple-ios.swiftdoc */,
+				0447C17D246AB8410001E9F5 /* arm64.swiftmodule */,
+				0447C17E246AB8410001E9F5 /* arm64-apple-ios.swiftmodule */,
+				0447C17F246AB8410001E9F5 /* arm64.swiftdoc */,
 			);
-			path = lib;
+			name = myLibrary.swiftmodule;
+			path = ../../../MSSlibIOS/lib/myLibrary.swiftmodule;
 			sourceTree = "<group>";
 		};
-		04E68F762465B73100FDA1BC /* Toast-Swift */ = {
+		0447C186246ABB740001E9F5 /* FirebaseInstanceID */ = {
 			isa = PBXGroup;
 			children = (
-				04E68F772465B73100FDA1BC /* Toast_Swift.framework.dSYM */,
-				04E68F782465B73100FDA1BC /* Toast_Swift.framework */,
-			);
-			path = "Toast-Swift";
-			sourceTree = "<group>";
-		};
-		04E68F792465B73100FDA1BC /* ImageSlideshow */ = {
-			isa = PBXGroup;
-			children = (
-				04E68F7A2465B73100FDA1BC /* ImageSlideshow.framework */,
-				04E68F7B2465B73100FDA1BC /* ImageSlideshow.framework.dSYM */,
-			);
-			path = ImageSlideshow;
-			sourceTree = "<group>";
-		};
-		04E68F7C2465B73100FDA1BC /* InputMask */ = {
-			isa = PBXGroup;
-			children = (
-				04E68F7D2465B73100FDA1BC /* InputMask.framework */,
-				04E68F7E2465B73100FDA1BC /* InputMask.framework.dSYM */,
-			);
-			path = InputMask;
-			sourceTree = "<group>";
-		};
-		04E68F7F2465B73100FDA1BC /* Alamofire */ = {
-			isa = PBXGroup;
-			children = (
-				04E68F802465B73100FDA1BC /* Alamofire.framework */,
-				04E68F812465B73100FDA1BC /* Alamofire.framework.dSYM */,
-			);
-			path = Alamofire;
-			sourceTree = "<group>";
-		};
-		04E68F832465B73100FDA1BC /* FirebaseCore */ = {
-			isa = PBXGroup;
-			children = (
-				04E68F842465B73100FDA1BC /* FirebaseCore.framework */,
-			);
-			path = FirebaseCore;
-			sourceTree = "<group>";
-		};
-		04E68F852465B73100FDA1BC /* PromisesObjC */ = {
-			isa = PBXGroup;
-			children = (
-				04E68F862465B73100FDA1BC /* FBLPromises.framework */,
-				04E68F872465B73100FDA1BC /* FBLPromises.framework.dSYM */,
-			);
-			path = PromisesObjC;
-			sourceTree = "<group>";
-		};
-		04E68F882465B73100FDA1BC /* iOSDropDown */ = {
-			isa = PBXGroup;
-			children = (
-				04E68F892465B73100FDA1BC /* iOSDropDown.framework */,
-				04E68F8A2465B73200FDA1BC /* iOSDropDown.framework.dSYM */,
-			);
-			path = iOSDropDown;
-			sourceTree = "<group>";
-		};
-		04E68F8B2465B73200FDA1BC /* GoogleDataTransport */ = {
-			isa = PBXGroup;
-			children = (
-				04E68F8C2465B73200FDA1BC /* GoogleDataTransport.framework */,
-			);
-			path = GoogleDataTransport;
-			sourceTree = "<group>";
-		};
-		04E68F8D2465B73200FDA1BC /* IVMaskField */ = {
-			isa = PBXGroup;
-			children = (
-				04E68F8E2465B73200FDA1BC /* IVMaskField.framework */,
-				04E68F8F2465B73200FDA1BC /* IVMaskField.framework.dSYM */,
-			);
-			path = IVMaskField;
-			sourceTree = "<group>";
-		};
-		04E68F902465B73200FDA1BC /* GoogleDataTransportCCTSupport */ = {
-			isa = PBXGroup;
-			children = (
-				04E68F912465B73200FDA1BC /* GoogleDataTransportCCTSupport.framework */,
-			);
-			path = GoogleDataTransportCCTSupport;
-			sourceTree = "<group>";
-		};
-		04E68F922465B73200FDA1BC /* AlamofireObjectMapper */ = {
-			isa = PBXGroup;
-			children = (
-				04E68F932465B73200FDA1BC /* AlamofireObjectMapper.framework.dSYM */,
-				04E68F942465B73200FDA1BC /* AlamofireObjectMapper.framework */,
-			);
-			path = AlamofireObjectMapper;
-			sourceTree = "<group>";
-		};
-		04E68F952465B73200FDA1BC /* FirebaseInstanceID */ = {
-			isa = PBXGroup;
-			children = (
-				04E68F962465B73200FDA1BC /* FirebaseInstanceID.framework */,
+				0447C187246ABB740001E9F5 /* FirebaseInstanceID.framework */,
 			);
 			path = FirebaseInstanceID;
 			sourceTree = "<group>";
 		};
-		04E68F972465B73200FDA1BC /* AKMaskField */ = {
+		0447C189246ABB740001E9F5 /* PhoneNumberKit */ = {
 			isa = PBXGroup;
 			children = (
-				04E68F982465B73200FDA1BC /* AKMaskField.framework */,
-				04E68F992465B73200FDA1BC /* AKMaskField.framework.dSYM */,
-			);
-			path = AKMaskField;
-			sourceTree = "<group>";
-		};
-		04E68F9A2465B73200FDA1BC /* myLibrary.swiftmodule */ = {
-			isa = PBXGroup;
-			children = (
-				04E68F9B2465B73200FDA1BC /* arm64-apple-ios.swiftdoc */,
-				04E68F9C2465B73200FDA1BC /* arm64.swiftmodule */,
-				04E68F9D2465B73200FDA1BC /* arm64-apple-ios.swiftmodule */,
-				04E68F9E2465B73200FDA1BC /* arm64.swiftdoc */,
-			);
-			path = myLibrary.swiftmodule;
-			sourceTree = "<group>";
-		};
-		04E68F9F2465B73200FDA1BC /* SQLite.swift */ = {
-			isa = PBXGroup;
-			children = (
-				04E68FA02465B73200FDA1BC /* SQLite.framework.dSYM */,
-				04E68FA12465B73200FDA1BC /* SQLite.framework */,
-			);
-			path = SQLite.swift;
-			sourceTree = "<group>";
-		};
-		04E68FA32465B73200FDA1BC /* ATAppUpdater */ = {
-			isa = PBXGroup;
-			children = (
-				04E68FA42465B73200FDA1BC /* ATAppUpdater.framework */,
-				04E68FA52465B73200FDA1BC /* ATAppUpdater.framework.dSYM */,
-			);
-			path = ATAppUpdater;
-			sourceTree = "<group>";
-		};
-		04E68FA62465B73200FDA1BC /* FirebaseCoreDiagnostics */ = {
-			isa = PBXGroup;
-			children = (
-				04E68FA72465B73200FDA1BC /* FirebaseCoreDiagnostics.framework */,
-			);
-			path = FirebaseCoreDiagnostics;
-			sourceTree = "<group>";
-		};
-		04E68FA82465B73200FDA1BC /* FirebaseInstallations */ = {
-			isa = PBXGroup;
-			children = (
-				04E68FA92465B73200FDA1BC /* FirebaseInstallations.framework */,
-			);
-			path = FirebaseInstallations;
-			sourceTree = "<group>";
-		};
-		04E68FAB2465B73200FDA1BC /* OHHTTPStubs */ = {
-			isa = PBXGroup;
-			children = (
-				04E68FAC2465B73200FDA1BC /* OHHTTPStubs.framework */,
-				04E68FAD2465B73200FDA1BC /* OHHTTPStubs.framework.dSYM */,
-			);
-			path = OHHTTPStubs;
-			sourceTree = "<group>";
-		};
-		04E68FAF2465B73200FDA1BC /* XLPagerTabStrip */ = {
-			isa = PBXGroup;
-			children = (
-				04E68FB02465B73200FDA1BC /* XLPagerTabStrip.bundle */,
-				04E68FB12465B73200FDA1BC /* XLPagerTabStrip.framework */,
-				04E68FB22465B73200FDA1BC /* XLPagerTabStrip.framework.dSYM */,
-			);
-			path = XLPagerTabStrip;
-			sourceTree = "<group>";
-		};
-		04E68FB52465B73200FDA1BC /* FirebaseMessaging */ = {
-			isa = PBXGroup;
-			children = (
-				04E68FB62465B73200FDA1BC /* FirebaseMessaging.framework */,
-			);
-			path = FirebaseMessaging;
-			sourceTree = "<group>";
-		};
-		04E68FB72465B73200FDA1BC /* IQKeyboardManagerSwift */ = {
-			isa = PBXGroup;
-			children = (
-				04E68FB82465B73200FDA1BC /* IQKeyboardManagerSwift.framework */,
-				04E68FB92465B73200FDA1BC /* IQKeyboardManagerSwift.framework.dSYM */,
-			);
-			path = IQKeyboardManagerSwift;
-			sourceTree = "<group>";
-		};
-		04E68FBA2465B73200FDA1BC /* ObjectMapper */ = {
-			isa = PBXGroup;
-			children = (
-				04E68FBB2465B73200FDA1BC /* ObjectMapper.framework */,
-				04E68FBC2465B73200FDA1BC /* ObjectMapper.framework.dSYM */,
-			);
-			path = ObjectMapper;
-			sourceTree = "<group>";
-		};
-		04E68FBD2465B73200FDA1BC /* GoogleUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				04E68FBE2465B73200FDA1BC /* GoogleUtilities.framework */,
-				04E68FBF2465B73200FDA1BC /* GoogleUtilities.framework.dSYM */,
-			);
-			path = GoogleUtilities;
-			sourceTree = "<group>";
-		};
-		04E68FC12465B73200FDA1BC /* JMMaskTextField-Swift */ = {
-			isa = PBXGroup;
-			children = (
-				04E68FC22465B73200FDA1BC /* JMMaskTextField_Swift.framework */,
-				04E68FC32465B73200FDA1BC /* JMMaskTextField_Swift.framework.dSYM */,
-			);
-			path = "JMMaskTextField-Swift";
-			sourceTree = "<group>";
-		};
-		04E68FC42465B73200FDA1BC /* SVPinView */ = {
-			isa = PBXGroup;
-			children = (
-				04E68FC52465B73200FDA1BC /* SVPinView.framework */,
-				04E68FC62465B73200FDA1BC /* SVPinView.framework.dSYM */,
-			);
-			path = SVPinView;
-			sourceTree = "<group>";
-		};
-		04E68FC72465B73200FDA1BC /* nanopb */ = {
-			isa = PBXGroup;
-			children = (
-				04E68FC82465B73200FDA1BC /* nanopb.framework */,
-				04E68FC92465B73200FDA1BC /* nanopb.framework.dSYM */,
-			);
-			path = nanopb;
-			sourceTree = "<group>";
-		};
-		04E68FCA2465B73200FDA1BC /* Protobuf */ = {
-			isa = PBXGroup;
-			children = (
-				04E68FCB2465B73200FDA1BC /* protobuf.framework */,
-				04E68FCC2465B73200FDA1BC /* protobuf.framework.dSYM */,
-			);
-			path = Protobuf;
-			sourceTree = "<group>";
-		};
-		04E68FCD2465B73200FDA1BC /* PhoneNumberKit */ = {
-			isa = PBXGroup;
-			children = (
-				04E68FCE2465B73200FDA1BC /* PhoneNumberKit.framework */,
-				04E68FCF2465B73200FDA1BC /* PhoneNumberKit.framework.dSYM */,
+				0447C18A246ABB740001E9F5 /* PhoneNumberKit.framework */,
+				0447C18B246ABB740001E9F5 /* PhoneNumberKit.framework.dSYM */,
 			);
 			path = PhoneNumberKit;
 			sourceTree = "<group>";
 		};
-		04E6906424695C6300FDA1BC /* myLibrary.swiftmodule */ = {
+		0447C18C246ABB740001E9F5 /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
-				04E6906524695C6300FDA1BC /* arm64-apple-ios.swiftdoc */,
-				04E6906624695C6300FDA1BC /* arm64.swiftmodule */,
-				04E6906724695C6300FDA1BC /* arm64-apple-ios.swiftmodule */,
-				04E6906824695C6300FDA1BC /* arm64.swiftdoc */,
+				0447C18D246ABB740001E9F5 /* Alamofire.framework */,
+				0447C18E246ABB740001E9F5 /* Alamofire.framework.dSYM */,
 			);
-			path = myLibrary.swiftmodule;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		0447C18F246ABB740001E9F5 /* GoogleDataTransportCCTSupport */ = {
+			isa = PBXGroup;
+			children = (
+				0447C190246ABB740001E9F5 /* GoogleDataTransportCCTSupport.framework */,
+			);
+			path = GoogleDataTransportCCTSupport;
+			sourceTree = "<group>";
+		};
+		0447C191246ABB740001E9F5 /* FirebaseCoreDiagnostics */ = {
+			isa = PBXGroup;
+			children = (
+				0447C192246ABB740001E9F5 /* FirebaseCoreDiagnostics.framework */,
+			);
+			path = FirebaseCoreDiagnostics;
+			sourceTree = "<group>";
+		};
+		0447C193246ABB750001E9F5 /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				0447C194246ABB750001E9F5 /* FirebaseCore.framework */,
+			);
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
+		0447C195246ABB750001E9F5 /* GoogleDataTransport */ = {
+			isa = PBXGroup;
+			children = (
+				0447C196246ABB750001E9F5 /* GoogleDataTransport.framework */,
+			);
+			path = GoogleDataTransport;
+			sourceTree = "<group>";
+		};
+		0447C197246ABB750001E9F5 /* nanopb */ = {
+			isa = PBXGroup;
+			children = (
+				0447C198246ABB750001E9F5 /* nanopb.framework */,
+				0447C199246ABB750001E9F5 /* nanopb.framework.dSYM */,
+			);
+			path = nanopb;
+			sourceTree = "<group>";
+		};
+		0447C19A246ABB750001E9F5 /* ObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				0447C19B246ABB750001E9F5 /* ObjectMapper.framework */,
+				0447C19C246ABB750001E9F5 /* ObjectMapper.framework.dSYM */,
+			);
+			path = ObjectMapper;
+			sourceTree = "<group>";
+		};
+		0447C19D246ABB750001E9F5 /* ImageSlideshow */ = {
+			isa = PBXGroup;
+			children = (
+				0447C19E246ABB750001E9F5 /* ImageSlideshow.framework */,
+				0447C19F246ABB750001E9F5 /* ImageSlideshow.framework.dSYM */,
+			);
+			path = ImageSlideshow;
+			sourceTree = "<group>";
+		};
+		0447C1A0246ABB750001E9F5 /* Protobuf */ = {
+			isa = PBXGroup;
+			children = (
+				0447C1A1246ABB750001E9F5 /* protobuf.framework */,
+				0447C1A2246ABB750001E9F5 /* protobuf.framework.dSYM */,
+			);
+			path = Protobuf;
+			sourceTree = "<group>";
+		};
+		0447C1A4246ABB750001E9F5 /* iOSDropDown */ = {
+			isa = PBXGroup;
+			children = (
+				0447C1A5246ABB750001E9F5 /* iOSDropDown.framework */,
+				0447C1A6246ABB750001E9F5 /* iOSDropDown.framework.dSYM */,
+			);
+			path = iOSDropDown;
+			sourceTree = "<group>";
+		};
+		0447C1A7246ABB750001E9F5 /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				0447C1A8246ABB750001E9F5 /* IQKeyboardManagerSwift.framework */,
+				0447C1A9246ABB750001E9F5 /* IQKeyboardManagerSwift.framework.dSYM */,
+			);
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		0447C1AA246ABB760001E9F5 /* IVMaskField */ = {
+			isa = PBXGroup;
+			children = (
+				0447C1AB246ABB760001E9F5 /* IVMaskField.framework */,
+				0447C1AC246ABB760001E9F5 /* IVMaskField.framework.dSYM */,
+			);
+			path = IVMaskField;
+			sourceTree = "<group>";
+		};
+		0447C1AD246ABB760001E9F5 /* SQLite.swift */ = {
+			isa = PBXGroup;
+			children = (
+				0447C1AE246ABB760001E9F5 /* SQLite.framework.dSYM */,
+				0447C1AF246ABB760001E9F5 /* SQLite.framework */,
+			);
+			path = SQLite.swift;
+			sourceTree = "<group>";
+		};
+		0447C1B0246ABB760001E9F5 /* InputMask */ = {
+			isa = PBXGroup;
+			children = (
+				0447C1B1246ABB760001E9F5 /* InputMask.framework */,
+				0447C1B2246ABB760001E9F5 /* InputMask.framework.dSYM */,
+			);
+			path = InputMask;
+			sourceTree = "<group>";
+		};
+		0447C1B3246ABB760001E9F5 /* JMMaskTextField-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				0447C1B4246ABB760001E9F5 /* JMMaskTextField_Swift.framework */,
+				0447C1B5246ABB760001E9F5 /* JMMaskTextField_Swift.framework.dSYM */,
+			);
+			path = "JMMaskTextField-Swift";
+			sourceTree = "<group>";
+		};
+		0447C1B6246ABB760001E9F5 /* SVPinView */ = {
+			isa = PBXGroup;
+			children = (
+				0447C1B7246ABB760001E9F5 /* SVPinView.framework */,
+				0447C1B8246ABB760001E9F5 /* SVPinView.framework.dSYM */,
+			);
+			path = SVPinView;
+			sourceTree = "<group>";
+		};
+		0447C1BA246ABB760001E9F5 /* AlamofireObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				0447C1BB246ABB760001E9F5 /* AlamofireObjectMapper.framework.dSYM */,
+				0447C1BC246ABB760001E9F5 /* AlamofireObjectMapper.framework */,
+			);
+			path = AlamofireObjectMapper;
+			sourceTree = "<group>";
+		};
+		0447C1BE246ABB770001E9F5 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				0447C1BF246ABB770001E9F5 /* GoogleUtilities.framework */,
+				0447C1C0246ABB770001E9F5 /* GoogleUtilities.framework.dSYM */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		0447C1C1246ABB780001E9F5 /* FirebaseMessaging */ = {
+			isa = PBXGroup;
+			children = (
+				0447C1C2246ABB780001E9F5 /* FirebaseMessaging.framework */,
+			);
+			path = FirebaseMessaging;
+			sourceTree = "<group>";
+		};
+		0447C1C3246ABB780001E9F5 /* OHHTTPStubs */ = {
+			isa = PBXGroup;
+			children = (
+				0447C1C4246ABB780001E9F5 /* OHHTTPStubs.framework */,
+				0447C1C5246ABB780001E9F5 /* OHHTTPStubs.framework.dSYM */,
+			);
+			path = OHHTTPStubs;
+			sourceTree = "<group>";
+		};
+		0447C1C6246ABB780001E9F5 /* FirebaseInstallations */ = {
+			isa = PBXGroup;
+			children = (
+				0447C1C7246ABB780001E9F5 /* FirebaseInstallations.framework */,
+			);
+			path = FirebaseInstallations;
+			sourceTree = "<group>";
+		};
+		0447C1C8246ABB780001E9F5 /* AKMaskField */ = {
+			isa = PBXGroup;
+			children = (
+				0447C1C9246ABB780001E9F5 /* AKMaskField.framework */,
+				0447C1CA246ABB780001E9F5 /* AKMaskField.framework.dSYM */,
+			);
+			path = AKMaskField;
+			sourceTree = "<group>";
+		};
+		0447C1CB246ABB780001E9F5 /* Toast-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				0447C1CC246ABB790001E9F5 /* Toast_Swift.framework.dSYM */,
+				0447C1CD246ABB790001E9F5 /* Toast_Swift.framework */,
+			);
+			path = "Toast-Swift";
+			sourceTree = "<group>";
+		};
+		0447C1CF246ABB790001E9F5 /* XLPagerTabStrip */ = {
+			isa = PBXGroup;
+			children = (
+				0447C1D0246ABB790001E9F5 /* XLPagerTabStrip.bundle */,
+				0447C1D1246ABB790001E9F5 /* XLPagerTabStrip.framework */,
+				0447C1D2246ABB790001E9F5 /* XLPagerTabStrip.framework.dSYM */,
+			);
+			path = XLPagerTabStrip;
+			sourceTree = "<group>";
+		};
+		0447C1D3246ABB790001E9F5 /* ATAppUpdater */ = {
+			isa = PBXGroup;
+			children = (
+				0447C1D4246ABB790001E9F5 /* ATAppUpdater.framework */,
+				0447C1D5246ABB790001E9F5 /* ATAppUpdater.framework.dSYM */,
+			);
+			path = ATAppUpdater;
+			sourceTree = "<group>";
+		};
+		0447C1D6246ABB790001E9F5 /* PromisesObjC */ = {
+			isa = PBXGroup;
+			children = (
+				0447C1D7246ABB790001E9F5 /* FBLPromises.framework */,
+				0447C1D8246ABB790001E9F5 /* FBLPromises.framework.dSYM */,
+			);
+			path = PromisesObjC;
+			sourceTree = "<group>";
+		};
+		04E68F752465B73100FDA1BC /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				0447C1C8246ABB780001E9F5 /* AKMaskField */,
+				0447C18C246ABB740001E9F5 /* Alamofire */,
+				0447C1BA246ABB760001E9F5 /* AlamofireObjectMapper */,
+				0447C188246ABB740001E9F5 /* Assets.car */,
+				0447C1B9246ABB760001E9F5 /* Assets.xcassets */,
+				0447C1D3246ABB790001E9F5 /* ATAppUpdater */,
+				0447C193246ABB750001E9F5 /* FirebaseCore */,
+				0447C191246ABB740001E9F5 /* FirebaseCoreDiagnostics */,
+				0447C1C6246ABB780001E9F5 /* FirebaseInstallations */,
+				0447C186246ABB740001E9F5 /* FirebaseInstanceID */,
+				0447C1C1246ABB780001E9F5 /* FirebaseMessaging */,
+				0447C195246ABB750001E9F5 /* GoogleDataTransport */,
+				0447C18F246ABB740001E9F5 /* GoogleDataTransportCCTSupport */,
+				0447C1BE246ABB770001E9F5 /* GoogleUtilities */,
+				0447C19D246ABB750001E9F5 /* ImageSlideshow */,
+				0447C1B0246ABB760001E9F5 /* InputMask */,
+				0447C1A4246ABB750001E9F5 /* iOSDropDown */,
+				0447C1A7246ABB750001E9F5 /* IQKeyboardManagerSwift */,
+				0447C1AA246ABB760001E9F5 /* IVMaskField */,
+				0447C1B3246ABB760001E9F5 /* JMMaskTextField-Swift */,
+				0447C197246ABB750001E9F5 /* nanopb */,
+				0447C19A246ABB750001E9F5 /* ObjectMapper */,
+				0447C1C3246ABB780001E9F5 /* OHHTTPStubs */,
+				0447C189246ABB740001E9F5 /* PhoneNumberKit */,
+				0447C1BD246ABB770001E9F5 /* Pods_myLibrary.framework */,
+				0447C1CE246ABB790001E9F5 /* Pods_resources.framework */,
+				0447C1D6246ABB790001E9F5 /* PromisesObjC */,
+				0447C1A0246ABB750001E9F5 /* Protobuf */,
+				0447C1A3246ABB750001E9F5 /* RSAEncryption.h */,
+				0447C1AD246ABB760001E9F5 /* SQLite.swift */,
+				0447C1B6246ABB760001E9F5 /* SVPinView */,
+				0447C1CB246ABB780001E9F5 /* Toast-Swift */,
+				0447C1CF246ABB790001E9F5 /* XLPagerTabStrip */,
+				0447C17A246AB8410001E9F5 /* libmyLibrary.a */,
+				0447C17B246AB8410001E9F5 /* myLibrary.swiftmodule */,
+				0447C179246AB8400001E9F5 /* resources.bundle */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
@@ -800,42 +781,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E68FFE2465B73200FDA1BC /* ObjectMapper.framework.dSYM in Resources */,
-				04E6906E24695C6300FDA1BC /* arm64.swiftdoc in Resources */,
-				04E68FD02465B73200FDA1BC /* Toast_Swift.framework.dSYM in Resources */,
-				04E68FD72465B73200FDA1BC /* Alamofire.framework.dSYM in Resources */,
-				04E68FF42465B73200FDA1BC /* Assets.car in Resources */,
-				04E68FE62465B73200FDA1BC /* arm64-apple-ios.swiftdoc in Resources */,
-				04E68FE12465B73200FDA1BC /* AlamofireObjectMapper.framework.dSYM in Resources */,
-				04E690002465B73200FDA1BC /* GoogleUtilities.framework.dSYM in Resources */,
+				0447C205246ABB7C0001E9F5 /* Toast_Swift.framework.dSYM in Resources */,
+				0447C1EA246ABB7A0001E9F5 /* protobuf.framework.dSYM in Resources */,
+				0447C185246AB8410001E9F5 /* arm64.swiftdoc in Resources */,
+				0447C1DC246ABB790001E9F5 /* PhoneNumberKit.framework.dSYM in Resources */,
+				0447C208246ABB7C0001E9F5 /* XLPagerTabStrip.bundle in Resources */,
+				0447C201246ABB7B0001E9F5 /* OHHTTPStubs.framework.dSYM in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				04E68FDC2465B73200FDA1BC /* iOSDropDown.framework.dSYM in Resources */,
-				04E68FE82465B73200FDA1BC /* arm64-apple-ios.swiftmodule in Resources */,
-				04E690052465B73200FDA1BC /* SVPinView.framework.dSYM in Resources */,
-				04E68FD32465B73200FDA1BC /* ImageSlideshow.framework.dSYM in Resources */,
-				04E68FF72465B73200FDA1BC /* XLPagerTabStrip.framework.dSYM in Resources */,
-				04E68FD52465B73200FDA1BC /* InputMask.framework.dSYM in Resources */,
-				04E6900B2465B73200FDA1BC /* PhoneNumberKit.framework.dSYM in Resources */,
-				04E68FE92465B73200FDA1BC /* arm64.swiftdoc in Resources */,
-				04E6906C24695C6300FDA1BC /* arm64.swiftmodule in Resources */,
-				04E68FE72465B73200FDA1BC /* arm64.swiftmodule in Resources */,
+				0447C20E246ABB7D0001E9F5 /* FBLPromises.framework.dSYM in Resources */,
+				0447C1F9246ABB7B0001E9F5 /* Assets.xcassets in Resources */,
+				0447C20C246ABB7C0001E9F5 /* ATAppUpdater.framework.dSYM in Resources */,
+				0447C1F1246ABB7A0001E9F5 /* SQLite.framework.dSYM in Resources */,
+				0447C183246AB8410001E9F5 /* arm64.swiftmodule in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				0447C1F0246ABB7A0001E9F5 /* IVMaskField.framework.dSYM in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
-				04E6906B24695C6300FDA1BC /* arm64-apple-ios.swiftdoc in Resources */,
-				04E6906D24695C6300FDA1BC /* arm64-apple-ios.swiftmodule in Resources */,
-				04E6906924695C6300FDA1BC /* resources.bundle in Resources */,
-				04E68FF32465B73200FDA1BC /* OHHTTPStubs.framework.dSYM in Resources */,
-				04E690092465B73200FDA1BC /* protobuf.framework.dSYM in Resources */,
-				04E68FEE2465B73200FDA1BC /* ATAppUpdater.framework.dSYM in Resources */,
-				04E68FE52465B73200FDA1BC /* AKMaskField.framework.dSYM in Resources */,
-				04E68FDF2465B73200FDA1BC /* IVMaskField.framework.dSYM in Resources */,
-				04E68FF52465B73200FDA1BC /* XLPagerTabStrip.bundle in Resources */,
-				04E690072465B73200FDA1BC /* nanopb.framework.dSYM in Resources */,
-				04E690032465B73200FDA1BC /* JMMaskTextField_Swift.framework.dSYM in Resources */,
-				04E68FEA2465B73200FDA1BC /* SQLite.framework.dSYM in Resources */,
-				04E68FEC2465B73200FDA1BC /* Assets.xcassets in Resources */,
-				04E68FDA2465B73200FDA1BC /* FBLPromises.framework.dSYM in Resources */,
-				04E68FFC2465B73200FDA1BC /* IQKeyboardManagerSwift.framework.dSYM in Resources */,
+				0447C1F6246ABB7B0001E9F5 /* JMMaskTextField_Swift.framework.dSYM in Resources */,
+				0447C1E4246ABB7A0001E9F5 /* nanopb.framework.dSYM in Resources */,
+				0447C1EE246ABB7A0001E9F5 /* IQKeyboardManagerSwift.framework.dSYM in Resources */,
+				0447C1DA246ABB790001E9F5 /* Assets.car in Resources */,
+				0447C1FE246ABB7B0001E9F5 /* GoogleUtilities.framework.dSYM in Resources */,
+				0447C1EC246ABB7A0001E9F5 /* iOSDropDown.framework.dSYM in Resources */,
+				0447C1FA246ABB7B0001E9F5 /* AlamofireObjectMapper.framework.dSYM in Resources */,
+				0447C182246AB8410001E9F5 /* arm64-apple-ios.swiftdoc in Resources */,
+				0447C1DE246ABB790001E9F5 /* Alamofire.framework.dSYM in Resources */,
+				0447C1F4246ABB7A0001E9F5 /* InputMask.framework.dSYM in Resources */,
+				0447C204246ABB7C0001E9F5 /* AKMaskField.framework.dSYM in Resources */,
+				0447C184246AB8410001E9F5 /* arm64-apple-ios.swiftmodule in Resources */,
+				0447C1F8246ABB7B0001E9F5 /* SVPinView.framework.dSYM in Resources */,
+				0447C180246AB8410001E9F5 /* resources.bundle in Resources */,
+				0447C1E6246ABB7A0001E9F5 /* ObjectMapper.framework.dSYM in Resources */,
+				0447C1E8246ABB7A0001E9F5 /* ImageSlideshow.framework.dSYM in Resources */,
+				0447C20A246ABB7C0001E9F5 /* XLPagerTabStrip.framework.dSYM in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
